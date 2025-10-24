@@ -3,8 +3,8 @@
     <!-- <img src="../../assets/users/{{selectedUser.avatar}}" alt=""> -->
     <img
       [src]="imagePath"
-      [alt]="name"
+      [alt]="name()"
     />
-    <span>{{ name }}</span>
+    <span>{{ name() }}</span>
   </button>
 </div>
